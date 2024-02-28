@@ -30,6 +30,7 @@ html{
 }
 body{
     display: flex;
+    position: relative;
 }
 .title{
     display: flex;
@@ -66,6 +67,9 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #142737;
+    position: absolute;
+    top: 7dvh;
+    z-index: 1;
 }
 .mobile-navbar>ul{
     display: none;
