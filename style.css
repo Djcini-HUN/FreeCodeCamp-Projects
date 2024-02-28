@@ -81,7 +81,7 @@ a{
 
 .mobile-navbar>li,.mobile-navbar>ul>li>a{
     display: flex;
-    height: 7dvh;
+    height: 8dvh;
 }
 .navbar-projects-a{
     display: flex;
@@ -187,8 +187,19 @@ a{
     display: none;
     flex-direction: row;
     width: 100%;
-    height: 6.5rem;
+    height: 8dvh;
     bottom: 0;
+}
+.social-mobile>img{
+    min-width: clamp(1rem,1vw,1vw);
+    min-height: clamp(1rem,1vw,1vw);
+    padding: 6px;
+}
+.social-mobile>img:hover,
+.social-mobile>img:focus,
+.social-mobile>img:active {
+    background-color: #547C9D;
+    transform: translateY(-0.25em);
 }
 
 .Project-Main{
