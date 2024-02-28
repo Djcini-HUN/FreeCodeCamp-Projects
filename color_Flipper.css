@@ -1,0 +1,57 @@
+.Project-Main{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(1rem,1vw,1vw);
+
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 75vw;
+    height: 100dvh;
+}
+.arrow{
+    height: clamp(4rem,4dvh,4dvh);
+}
+h1:nth-child(1){
+    font-size: clamp(3rem,3vw,3vw);
+}
+h1{
+    font-size: clamp(2rem,2vw,2vw);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #142737;
+}
+
+.flipper-btn{
+    border:none;
+    background-color: #142737;
+    color: white;
+    padding: clamp(.8rem,.8vw,.8vw);
+    border-radius: .4em;
+    font-size: clamp(1.3rem,1.2vw,1.2vw);
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.flipper-btn:hover,
+.reset-btn:hover{
+    transform: scale(1.07);
+}
+button{
+    width: clamp(8rem,8vw,8vw);
+}
+
+.reset-btn{
+    border:none;
+    background-color: #142737;
+    color: white;
+    padding: .5em;
+    border-radius: .4em;
+    font-size: clamp(1.2rem,1.2vw,1.2vw);
+    text-transform: uppercase;
+    margin-top: 2em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
