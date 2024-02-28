@@ -30,7 +30,6 @@ html{
 }
 body{
     display: flex;
-
 }
 .title{
     display: flex;
@@ -248,7 +247,7 @@ a{
         justify-content: center;
     }
     .Project-Main{
-        width: 100vw;
+        width: 100vw!important;
         height: 100dvh;
     }
     .title{
